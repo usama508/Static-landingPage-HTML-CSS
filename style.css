@@ -1,0 +1,772 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    
+    display: flex;
+}
+
+.header{
+    background-image: url('/images/bg1.png');
+    background-size: cover;
+
+    margin-left: auto;
+    
+    width: 100%;
+
+    
+}
+
+.inner{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.logo{
+    margin-top: 70px;
+   
+  }
+  .heading{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    
+  width: 70%;
+  }
+.heading h1{
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38.25px;
+    color: #4F4F4F;
+   
+   
+
+}
+
+.heading span{
+    font-weight: 900;
+    font-size: 115px;
+    line-height: 97.18px;
+    color: #EB5757;
+}
+
+.heading p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4F4F4F;
+   
+    width: 50%;
+}
+
+
+
+.heading button {
+    background-color: #F2C94C;
+    color:#333333;
+    border-radius: 25px;
+   
+    font-weight: 400;
+    font-size: 14px;
+  
+    /* margin: 0% 50% 5% 50%; */
+  
+    width:18%;
+    
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .btn{
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .btn p{
+    color:  #EB5757;
+    margin-left: 30px;
+    
+  }
+
+  
+
+  @media screen and (max-width: 1024px) {
+    .inner{
+        width: 50%;
+      
+    }
+
+    .logo img{
+        width: 90%;
+    }
+    
+  }
+
+  @media screen and (max-width: 830px) {
+
+
+    .inner{
+        width: 40%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .heading{
+        width: 100%;
+    }
+    .heading span{
+        font-size: 90px;
+    }
+
+    .heading p{
+        width: 100%;
+    }
+  }
+
+  @media screen  and (max-width:630px){
+   .header{
+    box-shadow: inset 0 0 0 2000px rgba(255, 255, 255, 0.8);
+   }
+    .inner{
+        width: 80%;
+    }
+    .logo img{
+        width: 80%;
+    }
+   .heading p{
+    width: 90%;
+   }
+
+   .heading button{
+    width: 40%;
+   }
+    
+  }
+
+  /* Services */
+  .service{
+    width: 100%;
+   
+  }
+  .service-head{
+    margin-top: 50px;
+    margin-bottom: 120px;
+    margin: auto;
+  width: 80%;
+  }
+
+  .service-head h1{
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 38.25px;
+    color: #4F4F4F;
+    
+  }
+
+  .service-head span{
+    font-weight: 900;
+    font-size: 115px;
+    line-height: 97.18px;
+    color: #EB5757;
+  }
+
+  .main-card{
+    width: 100%;
+
+ background-image: url('/images/bg2.png');
+ background-size: cover;
+ 
+    
+  }
+
+  .cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    margin: auto;
+    
+    
+  }
+
+  .card{
+  
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 10%);
+
+    border-radius: 30px;
+ 
+    margin-top: 50px;
+   margin-left: 15px;
+   
+    color: #ffffff;
+    height: 320px;
+  }
+
+  .card h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #333333;
+    padding-bottom: 20px;
+   
+  }
+  .card-button{
+
+text-align: center;
+
+  }
+  
+  .card-button button{
+   
+    background: linear-gradient(90deg, #EB7598 0%, #FF926F 100%);
+
+    color:#FFFFFF;
+    border-radius: 10px;
+   
+    font-weight: 500;
+    font-size: 13px;
+  height: auto;
+    /* margin: 0% 50% 5% 50%; */
+  
+    width:30%;
+    padding: 6px;
+    border: none;
+    cursor: pointer;
+
+  }
+
+  @media screen and (max-width:1024px){
+    .main-card{
+      background-color:  #F2F2F2;
+      border-radius: 50px 50px 0px 0px;
+    }
+    .service-head{
+        
+      width: 80%;
+      }
+      .service-head span{
+        font-size: 60px;
+       
+        
+      }
+     
+    
+  }
+
+  @media screen and (max-width:520px){
+    
+    .service-head h1{
+      text-align: center;
+    }
+
+    .service-head span{
+        font-weight: 900;
+        font-size: 45px;
+        line-height: 97.18px;
+        text-align: center;
+        color: #EB5757;
+      }
+
+      
+    
+  }
+
+  /* About Us*/
+
+  .about{
+   background-image: url('/images/bg3.png');
+   background-size: cover;
+   margin-top: -25px;
+   
+    width: 100%;
+    
+  }
+  .about-head{
+    margin-top: 50px;
+    margin: auto;
+   
+  width: 80%;
+  }
+
+  .about-head h1{
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 91.68px;
+    color: #4F4F4F;
+    
+    
+  }
+
+  .about-head span{
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 37.05px;
+    color: #EB5757;
+  }
+
+  .about-cards{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+    
+  }
+
+  .about-card{
+    width: 30%;
+    margin-left: 26px;
+    
+  }
+
+  /*.about-card h1{
+    border: 1px solid #D89595;
+    color: #D89595;
+    border-radius: 50%;
+    font-weight: 500;
+    font-size: 14px;
+    width: 20%;
+    
+  }*/
+
+  .about-card p{
+    color: #4F4F4F;
+    
+  }
+
+  .btns{
+    display: flex;
+    flex-direction: row;
+  margin-right: auto;
+  margin-left: 40px;
+   width: 20%;
+   
+    
+   
+  }
+
+  .btns button{
+    background-color: #F2C94C;
+    color:#333333;
+    border-radius: 25px;
+   height: auto;
+    font-weight: 500;
+    font-size: 13px;
+  
+    /* margin: 0% 50% 5% 50%; */
+ 
+    width:35%;
+ 
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .btns p{
+  color: #D89595;
+text-align: center;
+margin-left: 20px;
+
+  }
+
+  @media screen and (max-width:1024px) {
+    .about{
+      width: 100%;
+      background-color:  #F2F2F2;
+      border-radius: 0px 0px 50px 50px;
+    }
+    
+    .about-card{
+        width: 40%;
+        margin-left: 26px;
+        
+      }
+      .about-head{
+        text-align: center;
+      }
+      .about-head span{
+        font-size: 60px;
+        
+      }
+
+      .btns {
+        width: 50%;
+        margin-left: 55px;
+       
+      }
+  }
+
+  @media screen and (max-width:786){
+
+    .about-cards{
+    width: 100%;
+   
+    
+    
+  }
+  .about-card{
+    width: 100%;
+    margin-left: 26px;
+    
+  }
+
+  .button{
+    width: 60%;
+   
+  }
+}
+  @media screen and (max-width:540px){
+    .about-head{
+        width: 90%;
+      
+    }
+    
+    
+
+
+
+    .about-cards{
+     width: 90%;
+    display: flex;
+    flex-direction: column;
+
+        
+        
+      }
+
+      .about-card {
+width: 90%;
+
+      }
+
+      .btns button{
+        width: 70%;
+        margin-bottom: 30px;
+      }
+    
+  }
+
+
+  /* Gallery Section*/
+
+  .gallery-main{
+   
+    
+     width: 100%;
+     
+   }
+   .gallery-head{
+     margin-top: 50px;
+     margin: auto;
+    
+   width: 80%;
+   }
+ 
+   .gallery-head h1{
+     font-weight: 300;
+     font-size: 30px;
+   
+     line-height: 91.68px;
+     color: #4F4F4F;
+     
+     
+   }
+ 
+   .gallery-head span{
+     font-weight: 900;
+     font-size: 96px;
+   
+     line-height: 37.05px;
+     color: #EB5757;
+   }
+
+   .gallery{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+    margin: auto;
+   }
+
+   .gallery img{
+    
+    padding: 6px;
+   }
+
+   @media screen and (max-width:1024px) {
+
+    .gallery img{
+      width: 20%;
+   
+   }
+   }
+
+   @media screen and (max-width:540px) {
+    
+.gallery-head h1{
+  text-align: center;
+}
+    .gallery-head span{
+      font-size: 60px;
+     
+    }
+
+   
+    .gallery img{
+      padding: 5px;
+    }
+    
+   }
+
+   /* Contact Us */
+.contacts{
+ 
+margin-bottom: 40px;
+  width: 100%;
+ 
+}
+.contact{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: auto;
+ margin: auto;
+ margin-top: 20px;
+  
+ 
+  
+ border-radius: 0px 0px 50px 50px;
+
+  background-color: #E15252;
+}
+
+.contact-head h1{
+  color:  #FFFFFF;
+  text-align: center;
+  font-weight: 900;
+  font-size: 96px;
+  
+}
+
+
+.contact-input{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+margin-bottom: 50px;
+ 
+
+}
+.input{
+  width: 40%;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.input input{
+  width: 70%;
+  background-color: #ffffff;
+  border: none;
+ margin-left: auto;
+ margin-right: auto;
+ 
+ height: auto;
+justify-content: center;
+padding: 10px;
+
+margin-bottom: 10px;
+border-radius:61px;
+}
+
+.input button{
+  width: 30%;
+  background: #E15252;
+
+ margin-left: auto;
+ margin-right: auto;
+ 
+
+border: 3px solid #ffffff;
+  border-radius: 35px;
+  color: #ffffff;
+ 
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 27px;
+  text-align: center;
+  cursor: pointer;
+  
+  
+ padding-top: 1%;
+ padding-bottom: 1%;
+}
+
+.testing{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  
+}
+
+
+
+.email{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+ 
+  width: 30%;
+}
+
+.email i{
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.email p{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17.43px;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.phone{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  
+  padding: auto;
+}
+
+.phone i{
+  color: #ffffff;
+ font-size: 15px;
+
+
+}
+
+.phone p{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17.43px;
+  margin-left: 23px;
+  margin-top: 5px;
+}
+
+.address{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: auto;
+  width: 40%;
+  
+}
+
+.address i{
+  color: #ffffff;
+ margin-left: 40px;
+  font-size: 15px;
+
+
+}
+
+.address p{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17.43px;
+  margin-left: 20px;
+ 
+}
+
+@media screen and (max-width:830px) {
+  .contact{
+    width: 80%;
+  }
+  .contact-head h1{
+    font-size: 50px;
+  }
+
+  .contact-input{
+    display: block;
+  }
+
+
+
+.input{
+  width: 100%;
+
+}
+
+.testing{
+
+  width: 100%;
+  margin-top: 30px;
+  
+}
+
+
+
+.email{
+ 
+ 
+  width: 80%;
+}
+
+.email i{
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.email p{
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 17.43px;
+  margin-left: 20px;
+  margin-top: 2px;
+}
+
+.phone{
+
+  width: 80%;
+
+}
+.address{
+ 
+  width: 90%;
+  
+}
+
+.input button{
+  width: 50%;
+}
+
+  
+ }
+
+  
+  
